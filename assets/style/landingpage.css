@@ -1,0 +1,49 @@
+.landingpage .container
+{
+    border: solid 1px black;
+    height: 40vh;
+    width: 50vh;
+    margin: 5vh auto;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 15px rgb(76, 137, 45);
+}
+
+.landingpage h2
+{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        margin-top: 2vh;
+        text-align: center;
+}
+
+.landingpage .container input,.landingpage .container button
+{
+    border: solid 1px black;
+    height: 6vh;
+    width: 20vw;
+    display: block;
+    margin: 3vh auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.landingpage .container button
+{
+    width: 10vw;
+    cursor: pointer;
+    background-color: darkslateblue;
+    color: white;
+}
+
+.landingpage .container input::placeholder
+{
+    text-align: center;
+}
+
+.landingpage .container input
+{
+    text-indent: 1vw;
+    outline: none;
+    box-shadow: inset 1px 1px 15px darkseagreen;
+}
